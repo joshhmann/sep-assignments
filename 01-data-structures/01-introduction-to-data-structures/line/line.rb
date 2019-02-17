@@ -9,21 +9,30 @@ class Line
   end
 
   def join(person)
+    members << person
   end
 
   def leave(person)
+
+
   end
 
   def front
+    members.first
   end
 
   def middle
+    index = members.length / 2
+     members[index]
   end
 
   def back
+    members.last
   end
 
   def search(person)
+    members.include?(person)
+    return person
   end
 
   private
