@@ -13,8 +13,7 @@ class Line
   end
 
   def leave(person)
-
-
+    members.delete(person)
   end
 
   def front
@@ -31,8 +30,11 @@ class Line
   end
 
   def search(person)
-    members.include?(person)
-    return person
+    if members.include?(person)
+    person
+    else
+      nil
+    end
   end
 
   private
