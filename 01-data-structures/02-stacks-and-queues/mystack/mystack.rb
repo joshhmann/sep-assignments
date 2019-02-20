@@ -7,11 +7,14 @@ class MyStack
   end
 
   def push(item)
+    @stack.push(item)
   end
 
   def pop
+    @stack.pop
   end
 
   def empty?
+    @stack.empty?
   end
 end
