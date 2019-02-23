@@ -7,16 +7,16 @@ class MyStack
   end
 
   def push(item)
-    @stack.push(item)
-    self.top = item 
+    @stack.unshift(item)
+    self.top = @stack[0]
   end
 
   def pop
-    @stack.pop
-
+    self.top = @stack[1]
+    @stack.shift
   end
 
   def empty?
-    @stack.empty?
+    @stack.count == 0
   end
 end
