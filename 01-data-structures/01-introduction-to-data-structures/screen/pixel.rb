@@ -9,7 +9,7 @@ class Pixel
   attr_accessor :blue
   attr_accessor :x
   attr_accessor :y
-
+#hello
 
   def initialize(red, green, blue, x, y)
     self.red = validate_color(red)
