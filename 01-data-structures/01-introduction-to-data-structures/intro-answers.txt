@@ -1,0 +1,13 @@
+1. How does your data structure allow developers to access and manipulate the data?
+
+while this does seem like a simple structure I feel that devs could easily access and manipulate data. The s
+
+2. If a developer wanted to find a specific element in your data structure, how would you search for it?
+
+
+
+3. What other real-world data can each structure represent?
+
+Our line data structure can represent as some type of queue in various things like putting yourself in a waitlist at a resturant, or queuing up in a game server when there's too many players
+
+Our screen/pixel data structure can also represent a graph for some type of data. 
